@@ -9,9 +9,7 @@ for (const entry of walkSync(
 )) {
     const createFilePath = join('../../', formatString(entry.path.replace('\\', '/'), {template: 'a'}))
     const fileContent = formatString(Deno.readTextFileSync(entry.path), {template: 'a'});
-
-    console.log(createFilePath);
-    console.log(fileContent);
+    
     Deno.mkdirSync(dirname(createFilePath), {recursive: true});
     Deno.writeTextFileSync(createFilePath, fileContent);
 }
