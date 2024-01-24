@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "{{template}}:app/setup"
+        "{{namespace}}:app/setup"
     ]
 }

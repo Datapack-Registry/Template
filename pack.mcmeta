@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "pack_format": 26,
+    "description": [
+      {
+        "text": "'{{name}}'",
+        "color": "#67b015"
+      },
+      "\n",
+      {
+        "text": "by {{author}}",
+        "color": "#b1b1b1"
+      }
+    ]
+  }
+}
