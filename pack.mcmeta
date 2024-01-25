@@ -3,16 +3,16 @@
     "pack_format": 26,
     "description": [
       {
-        "text": "\"{{name}}\""
+        "text": "\"{{datapack_name}}\""
       },
       "\n",
       {
-        "text": "{{description}}",
+        "text": "{{datapack_description}}",
         "color": "#aaaaaa"
       },
       "\n\n",
       {
-        "text": "{{version}} for {{minecraft_version}}",
+        "text": "{{datapack_version}} for Minecraft {{minecraft_version}}",
         "color": "#00AA00"
       },
       "\n",
@@ -20,7 +20,7 @@
         "text": "by"
       },
       {
-        "text": "{{author}}",
+        "text": "{{datapack_author}}",
         "color": "#00aaaa"
       }
     ]
