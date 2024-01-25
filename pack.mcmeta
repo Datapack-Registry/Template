@@ -3,13 +3,25 @@
     "pack_format": 26,
     "description": [
       {
-        "text": "'{{name}}'",
-        "color": "#67b015"
+        "text": "\"{{name}}\""
       },
       "\n",
       {
-        "text": "by {{author}}",
-        "color": "#b1b1b1"
+        "text": "{{description}}",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "{{version}} for {{minecraft_version}}",
+        "color": "#00AA00"
+      },
+      "\n",
+      {
+        "text": "by"
+      },
+      {
+        "text": "{{author}}",
+        "color": "#00aaaa"
       }
     ]
   }
