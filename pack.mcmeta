@@ -12,7 +12,7 @@
       },
       "\n\n",
       {
-        "text": "{{datapack_version}} for Minecraft {{minecraft_version}}",
+        "text": "Version {{datapack_version}} for Minecraft {{minecraft_version}}",
         "color": "#00AA00"
       },
       "\n",
