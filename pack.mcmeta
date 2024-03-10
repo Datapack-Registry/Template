@@ -3,7 +3,7 @@
     "pack_format": 26,
     "description": [
       {
-        "text": "\"{{datapack_name}}\""
+        "text": "\"{{datapack_name}}\" (namespace)"
       },
       "\n",
       {
@@ -12,16 +12,26 @@
       },
       "\n\n",
       {
-        "text": "Version {{datapack_version}} for Minecraft {{minecraft_version}}",
-        "color": "#00AA00"
+        "text": "Version "
+      },
+      {
+        "text": "{{datapack_version}}",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "{{minecraft_version}}",
+        "color": "#55ff55"
       },
       "\n",
       {
-        "text": "by"
+        "text": "by "
       },
       {
         "text": "{{datapack_author}}",
-        "color": "#00aaaa"
+        "color": "#ffff55"
       }
     ]
   }

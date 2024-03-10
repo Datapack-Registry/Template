@@ -1,6 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "{{namespace}}:datapack/register_add"
-    ]
-}
