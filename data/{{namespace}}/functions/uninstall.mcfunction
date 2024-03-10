@@ -6,4 +6,4 @@ function {{namespace}}:logging/log {\
   message: "Datapack was uninstalled successfully!"\
 }
 
-datapack disable "{{datapack_name}}"
+datapack disable "file/{{datapack_name}}"
