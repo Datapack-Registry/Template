@@ -21,7 +21,7 @@ body:
     attributes:
       label: 'Minecraft version'
       description: 'What Minecraft version did you use when encountering the bug?'
-      placeholder: 'ex. 1.20.6'
+      placeholder: 'ex. 1.21'
     validations:
       required: true
       
